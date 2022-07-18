@@ -3,7 +3,11 @@ package com.ds.login
 import android.util.Patterns
 import com.ds.login.LoginConstants.emailError
 import com.ds.login.LoginConstants.invalidEmailError
-
+/**
+ *
+ * Created By Amir Fury on 18 July 2022
+ *
+ * **/
 class LoginValidator(private val provider: LoginComponentsProvider) {
 
     fun validateLoginData(onLoginDataValid: (email: String, password: String) -> Unit) =

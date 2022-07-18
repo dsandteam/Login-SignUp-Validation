@@ -1,5 +1,9 @@
 package com.ds.login
-
+/**
+ *
+ * Created By Amir Fury on 18 July 2022
+ *
+ * **/
 object LoginConstants {
     const val firstNameError = "Please enter your first name"
     const val lastNameError = "Please enter your last name"

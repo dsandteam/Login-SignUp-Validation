@@ -10,7 +10,11 @@ import com.ds.login.LoginConstants.passwordLengthError
 import com.ds.login.LoginConstants.passwordsDoNotMatchError
 import com.ds.login.LoginConstants.reEnterPasswordError
 
-
+/**
+ *
+ * Created By Amir Fury on 18 July 2022
+ *
+ * **/
 class SignUpValidator(private val provider: SignUpComponentsProvider) {
 
     fun validateSignUpData(onValidData: (firstName: String, lastName: String, email: String, password: String) -> Unit) =
